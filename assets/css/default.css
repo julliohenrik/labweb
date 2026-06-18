@@ -1,0 +1,81 @@
+@import url('https://googleapis.com');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 70%;
+  padding: 20px 0px 20px 0;
+  margin: 0 auto;
+}
+
+nav {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.color-blue {
+  background-color: #16e;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav a {
+  color: #fff;
+}
+
+main {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  width: 70%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+main h1 {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+}
+
+main h2 {
+  padding: 20px 0px;
+}
+
+main p {
+  text-indent: 15px;
+}
+
+footer {
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px 0px 40px 0px;
+}
+
+.learn-more {
+  padding: 20px;
+  text-decoration: none;
+}
+
+.learn-more a {
+  padding-inline: 5px;
+  font-family: "Roboto", sans-serif;
+}
